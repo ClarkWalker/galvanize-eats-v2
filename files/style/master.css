@@ -1,0 +1,112 @@
+/*open*/
+body {
+  background-color: #000000;
+  color: #FFFFFF;
+  display: flex;
+  flex-flow: row, nowrap;
+}
+/*close*//*open*/
+#left_banner_area {
+  background-color: #111;
+  display: flex;
+  min-width: 4em;
+  width: 50em;
+}
+/*close*//*open*/
+#right_banner_area {
+  background-color: #111;
+  display: flex;
+  order: 100;
+  min-width: 4em;
+  width: 50em;
+}
+/*close*//*open*/
+#middle_content_wrapper {
+  display: flex;
+  flex-flow: column;
+}
+/*close*//*open*/
+#header_nav {
+  margin: auto 15px;
+  font-size: 1.1em;
+}
+/*close*//*open*/
+#header_spacer {
+  margin: auto;
+}
+/*close*//*open*/
+#main_upper_section {
+  display: flex;
+  flex-flow: nowrap row;
+  margin: 10px 10px;
+}
+/*close*//*open*/
+#main_upper_image {
+  height: 30em;
+  margin: 10px 10px;
+  float: right;
+}
+/*close*//*open*/
+#order_now button {
+  height: 2.5em;
+  font-size: 2em;
+  border-radius: 10px;
+}
+/*close*//*open*/
+#order_now {
+  display: flex;
+  justify-content: center;
+
+}
+/*close*//*open*/
+.biz_info {
+
+}
+/*close*//*open*/
+.menue_item {
+
+}
+/*close*//*open*/
+header {
+  background-color: #222;
+  display: flex;
+}
+/*close*//*open*/
+main {
+  background-color: #444;
+  display: flex;
+  flex-flow: nowrap column;
+  min-width: 60em;
+  height: 100em;
+}
+/*close*//*open*/
+main p {
+  font-size: 1.5em;
+}
+/*close*//*open*/
+main section {
+  margin: 10px 10px;
+}
+main section h2 {
+  text-align: center;
+  border: 2px solid #ddf;
+  margin: 0px;
+}
+/*close*//*open*/
+input {
+  background-color: #222222;
+  display: flex;
+
+}
+/*close*//*open*/
+button {
+  color: #555;
+
+}
+/*close*//*open*/
+footer  {
+  background-color: #004444;
+  display: flex;
+
+}
+/*close*//*open*/
